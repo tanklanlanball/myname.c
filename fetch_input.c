@@ -13,7 +13,7 @@ int main() {
     //and feed those input into a, b, c, d, e, respectively.
     //only ONE line code is you need
     //please refer page 18 of slides
-    scanf("%d %d %d %d %d",&a,&b,&c,&d,&e)
+    scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
     printf("a=%d\n", a);
     printf("b=%d\n", b);
     printf("c=%d\n", c);
