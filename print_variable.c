@@ -13,6 +13,6 @@ int main() {
         //j=9, b=783
         //...
         //j=22, b=1914
-      printf("j=%d, b=%d\n", j, b*j)
+      printf("j=%d, b=%d\n", j, b*j);
     }
 }
