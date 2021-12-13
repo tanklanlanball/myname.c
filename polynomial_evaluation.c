@@ -9,6 +9,7 @@ double power(double x, int q) {
 
     double m = x;
     for (int i = 1; i < q; i++) {
+        m *=x;
         //HERE
         //this line should do some operation to achieve multiplications
         //only ONE line to be ADD
@@ -46,8 +47,9 @@ int main() {
         //the left variable and right expression should be UNTOUCHED
         //only the OPERATION to be MODIFIED
         //please refer to page 6 of Operation slides to get some idea
-        result = p[i] * power(x, q[i]);
+        result += p[i] * power(x, q[i]);
     }
 
     printf("%lf\n", result);
-}
+
+    }
