@@ -2,7 +2,7 @@
 
 # File: constants.py 
 # Description: Basic program constants.
-# Author: Pavel Benáček <pavel.benacek@gmail.com>
+# Author: Pavel Bena?ek <pavel.benacek@gmail.com>
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -22,9 +22,9 @@ from pygame.locals import *
 
 # Configuration of building shape block
 # Width of the shape block
-BWIDTH     = 40
+BWIDTH     = 30
 # Height of the shape block
-BHEIGHT    = 40
+BHEIGHT    = 30
 # Width of the line around the block
 MESH_WIDTH = 2
 
@@ -37,13 +37,13 @@ BOARD_UP_MARGIN  = 40
 BOARD_MARGIN     = 2
 
 # Color declarations in the RGB notation
-WHITE    = (255,255,255)
+WHITE    = (213,138,140)
 RED      = (255,0,0)
 GREEN    = (0,255,0)
-BLUE     = (0,0,255)
+BLUE     = (83,168,219)
 ORANGE   = (255,69,0)
-GOLD     = (255,35,0)
-PURPLE   = (48,0,128)
+GOLD     = (255,125,0)
+PURPLE   = (128,0,128)
 CYAN     = (0,255,255) 
 BLACK    = (0,0,0)
 
